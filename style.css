@@ -1,0 +1,56 @@
+.img-holder {
+  width: 1000px;
+  margin: 100px auto auto;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-holder img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.btns i.next-btn {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.btns i.prev-btn {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dots span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid black;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dots span:hover {
+  background-color: black;
+}
